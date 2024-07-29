@@ -3,7 +3,7 @@
 # ------------------------------------------------------
 
 type ItemType {
-  id: String!
+  _id: String!
   name: String!
   description: String
   quantity: Int!

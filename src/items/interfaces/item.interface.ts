@@ -1,7 +1,7 @@
 import { Document } from 'mongoose';
 
 export interface Item extends Document {
-  id: string;
+  _id: string;
   name: string;
   description?: string;
   quantity: number;

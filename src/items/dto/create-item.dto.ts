@@ -4,7 +4,7 @@ import { IsString, IsInt, IsOptional, Min, IsIn } from 'class-validator';
 @ObjectType()
 export class ItemType {
   @Field()
-  id: string;
+  _id: string;
 
   @Field()
   name: string;
